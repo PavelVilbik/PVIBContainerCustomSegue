@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.social_media_url   		= "https://twitter.com/VitaytII"
   s.ios.deployment_target 	= '8.0'
   s.source       			= { :git => "https://github.com/PavelVilbik/PVIBContainerCustomSegue.git", :tag => "v1.0.0" }
-  s.source_files  			= 'Classes", "Classes/**/*.{h,m}'
+  s.source_files  			= 'Classes/**/*.{h,m}'
   s.framework  			= 'UIKit'
   s.requires_arc 			= true
 end
